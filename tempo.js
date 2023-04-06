@@ -1,3 +1,5 @@
+//https://openweathermap.org/current#name
+
 const cidade = document.querySelector(".cidade");
 const data = document.querySelector(".data");
 const icon = document.querySelector(".icon");
