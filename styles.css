@@ -162,3 +162,14 @@ font-size: 1.2rem;
   font-size: 0.7rem;
 }
 }
+
+/* tempo */
+.tempo{
+  width: 20rem;
+}
+.fa-magnifying-glass{
+  font-size: 1rem;
+}
+.temperatura, span{
+  font-size: 2rem;
+}

@@ -50,19 +50,19 @@
     <div class="container-fluid endereco m-3">
       <h1 class="font-weight-light">Vamos tirar o projeto do papel?</h1>
       <hr />
-      <div class="row d-flex justify-content-center">
-        <div class="col-md">
+      <div class="row d-flex justify-content-around">
+        <div class="col">
           <div class="w-100" id="map"></div>
         </div>
 
-        <div class="col-md pt-4">
-          <h6>Endereço</h6>
+        <div class="col my-auto text-center">
+          <h6 class="fw-bold">Endereço</h6>
           <p>
             Av. Barão Homem de Melo, 158 <br />
             Nova Granada, BH
           </p>
 
-          <h6>Horário de Atendimento</h6>
+          <h6 class="fw-bold">Horário de Atendimento</h6>
           <p>
             segunda a sexta 08:15 – 20:15 <br />
             sabado 08:15 – 13:15<br />
@@ -70,6 +70,31 @@
           </p>
           <a class="zap"><img src="images/zap.jpg" alt="whatsapp" /></a>
         </div>
+
+        <!-- api weather start -->
+        <div class="col mt-4 mt-md-0">
+          <div class="card border-success mb-3 tempo text-center shadow-lg">
+            <div class="card-header border-success">Planeje a obra em função do tempo!</div>
+            <div class="card-body text-success">
+              <h5 class="card-title cidade">Cidade</h5>
+              <p class="card-text data">Data</p>
+              <div class="icon"><img src="images/icons/unknown.png" alt="" /></div>
+              <div class="container d-flex justify-content-center">
+                <div class="temperatura">0</div>
+                <span>°C</span>
+              </div>
+              <h4 class="tempText">Céu</h4>
+              <div class="humidadeText">Humidade</div>
+            </div>
+            <div class="card-footer border-success">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="digite o nome da cidade" aria-label="digite o nome da cidade" aria-describedby="basic-addon2" />
+                <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass p-1"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- api weather end -->
       </div>
     </div>
     <!-- address end-->
@@ -85,7 +110,7 @@
     ></script>
 
     <script src="https://kit.fontawesome.com/3e0721135b.js" crossorigin="anonymous"></script>
-
+    <script src="tempo.js"></script>
     <script src="api.js"></script>
   </body>
 </html>
