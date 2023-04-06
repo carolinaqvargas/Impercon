@@ -142,12 +142,12 @@ font-size: 1.2rem;
 
 }
 
-
 /* address */
-.endereco iframe {
-  width: 500px;
-  height: 500px;
-}
+ #map{
+  /* width: 500px;  */
+  height: 400px; 
+  overflow: hidden;
+ }
 
 /* footer */
 .footer {

@@ -13,6 +13,13 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
 
+    <!-- leaflet map start -->
+    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <!-- leaflet map end -->
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -43,17 +50,12 @@
     <div class="container-fluid endereco m-3">
       <h1 class="font-weight-light">Vamos tirar o projeto do papel?</h1>
       <hr />
-      <div class="row d-flex">
-        <div class="col-sm m-auto map">
-          <iframe class="w-100 p-3"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.1470390400195!2d-43.96926356237937!3d-19.949717809922657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697bb6e7b20f3%3A0x4f5ae26f1717732c!2sAv.%20Bar%C3%A3o%20Homem%20de%20Melo%2C%201585%20-%20Nova%20Granada%2C%20Belo%20Horizonte%20-%20MG%2C%2030451-381%2C%20Brazil!5e0!3m2!1sen!2sfr!4v1680547282461!5m2!1sen!2sfr"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md">
+          <div class="w-100" id="map"></div>
         </div>
 
-        <div class="col-sm-auto">
+        <div class="col-md pt-4">
           <h6>Endereço</h6>
           <p>
             Av. Barão Homem de Melo, 158 <br />
@@ -83,5 +85,7 @@
     ></script>
 
     <script src="https://kit.fontawesome.com/3e0721135b.js" crossorigin="anonymous"></script>
+
+    <script src="api.js"></script>
   </body>
 </html>
