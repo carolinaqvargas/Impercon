@@ -1,0 +1,164 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+  color: #444;
+  font-size: 1rem;
+}
+
+/* nav */
+img.navbar-brand {
+  max-width: 170px;
+}
+
+.nav-link:hover {
+  font-size: large;
+}
+
+/* index hero */
+.hero img {
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+h1 {
+  font-size: 2rem;
+}
+  
+}
+
+
+.zap img {
+  max-height: 4rem;
+}
+
+.zap img:hover {
+  cursor: pointer;
+}
+
+/* index badges */
+.badges {
+  background: linear-gradient(90deg, #1cb5e0 0%, #004495 100%);
+  color: white;
+}
+i {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+i:hover {
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .badges > .row {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .badges > .row > .col {
+    display: inline-block;
+  }
+}
+
+/* index cards */
+.imgCard {
+  max-height: 150px;
+  padding-bottom: 1rem;
+}
+
+/* index cards */
+@media only screen and (max-width: 400px) {
+.h3{
+font-size: 1.2rem;
+}
+}
+
+/* services */
+.services {
+  background: linear-gradient(90deg, #3bc374 0%, #007f35 100%);
+  margin-top: 2rem;
+}
+.services h3 {
+  color: white;
+}
+
+@media only screen and (max-width: 760px) {
+  .services .card-title {
+    font-size: 1rem;
+  }
+}
+
+/* products */
+.products {
+  background: linear-gradient(90deg, #1cb5e0 0%, #004495 100%);
+  color: white;
+}
+.products img {
+  min-width: 190px;
+  max-width: 190px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+.products img {
+  min-width: 140px;
+  max-width: 140px;
+}
+}
+@media only screen and (min-width: 1440px) {
+.products img {
+  min-width: 270px;
+  max-width: 270px;
+}
+
+}
+
+/* providers */
+.providers img {
+  max-height: 100px;
+}
+
+/* empresa */
+.video{
+  height: 30rem;
+}
+
+@media only screen and (max-width: 600px) {
+.video{
+  height: 15rem;
+}
+
+}
+@media only screen and (min-width: 768px) {
+.video{
+  height: 35rem;
+}
+
+}
+
+
+/* address */
+.endereco iframe {
+  width: 500px;
+  height: 500px;
+}
+
+/* footer */
+.footer {
+  background: linear-gradient(90deg, #1cb5e0 0%, #004495 100%);
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 400px) {
+.footer a{
+  font-size: 0.7rem;
+}
+}
