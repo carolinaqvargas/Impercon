@@ -164,8 +164,8 @@ margin: 1rem;
 .fa-magnifying-glass{
   font-size: 1rem;
 }
-.temperatura, span{
-  font-size: 2rem;
+.temperatura, .graus{
+  font-size: 2.5rem;
 }
 .tempo{
   max-width: 30rem;
