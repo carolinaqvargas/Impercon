@@ -38,6 +38,7 @@ Police d’écriture: "Noto Sans"
 
 ## La technologie et outils tiers
 Technologies et langages utilisés : 
++ Figma (maquettage)
 + HTML
 + CSS
 + Bootstrap 
@@ -56,4 +57,5 @@ Le site est:
 + versionné sur Github.
 + accessible en ligne.
 
-
+## Maquette 
+Voici le lien pour la [maquette](https://github.com/carolinaqvargas/Impercon/blob/main/Impercon%20wireframe.png)
