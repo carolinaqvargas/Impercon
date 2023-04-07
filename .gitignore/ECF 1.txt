@@ -1,0 +1,22 @@
+Document de présentation Orale 
+
+Les étapes de travail:
+
+-Collecte des données (text et images)
+-Maquettage avec Figma
+-HTML avec Bootstrap
+-CSS 
+-Integration API geolocalization
+-Integration API meteo
+
+Le mode d'emploi de l'API:
+API geolocalization : zoomer pour trouver l'addresse, qui est deja par default. 
+
+API meteo: on tape le nom de la ville ou par les coordonnées GPS du client. 
+
+Cahier des charges technique et dossier de projet HTML:
+
+Svp, voir sur github ;  https://github.com/carolinaqvargas/Impercon
+
+
+
