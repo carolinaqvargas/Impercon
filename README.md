@@ -28,7 +28,10 @@ Augmenter les ventes.
 Couleurs: 
 + blanc
 + blue #004495
+![alt text](https://github.com/carolinaqvargas/Impercon/blob/main/images/blue.jpg "Primary-color")
+
 + vert #007f35
+![alt text](https://github.com/carolinaqvargas/Impercon/blob/main/images/green.jpg "Secondary-color")
 
 Police d’écriture: "Noto Sans"
 
