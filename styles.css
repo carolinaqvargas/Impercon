@@ -5,6 +5,7 @@ html {
 }
 
 /* nav */
+
 img.navbar-brand {
   max-width: 170px;
 }
@@ -24,12 +25,10 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
-h1 {
-  font-size: 2rem;
+  h1 {
+    font-size: 2rem;
+  }
 }
-  
-}
-
 
 .zap img {
   max-height: 4rem;
@@ -74,9 +73,9 @@ i:hover {
 
 /* index cards */
 @media only screen and (max-width: 400px) {
-.h3{
-font-size: 1.2rem;
-}
+  .h3 {
+    font-size: 1.2rem;
+  }
 }
 
 /* servicos */
@@ -106,17 +105,16 @@ font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 770px) {
-.products img {
-  min-width: 140px;
-  max-width: 140px;
-}
+  .products img {
+    min-width: 140px;
+    max-width: 140px;
+  }
 }
 @media only screen and (min-width: 1440px) {
-.products img {
-  min-width: 270px;
-  max-width: 270px;
-}
-
+  .products img {
+    min-width: 270px;
+    max-width: 270px;
+  }
 }
 
 /* produtos fornecedores */
@@ -125,52 +123,58 @@ font-size: 1.2rem;
 }
 
 /* empresa */
-.video{
+.video {
   height: 30rem;
 }
 
 @media only screen and (max-width: 600px) {
-.video{
-  height: 15rem;
-}
-
+  .video {
+    height: 15rem;
+  }
 }
 @media only screen and (min-width: 768px) {
-.video{
-  height: 35rem;
-}
+  .video {
+    height: 35rem;
+  }
 }
 
 /* endereco */
- #map{
-  height: 410px; 
-  }
+#map {
+  height: 410px;
+}
 
-  @media only screen and (max-width: 482px) {
-  .endereco h1{
-font-size: 1.3rem;
-margin: 2rem;
+@media only screen and (max-width: 482px) {
+  .endereco h1 {
+    font-size: 1.3rem;
+    margin: 2rem;
   }
-  }
+}
 
-    @media only screen and (max-width: 482px) {
-  .endereco h1{
-font-size: 1rem;
-margin: 1rem;
+@media only screen and (min-width: 768px) {
+  .endereco p {
+    font-size: 1.3rem;
+   
   }
+}
+
+@media only screen and (max-width: 482px) {
+  .endereco h1 {
+    font-size: 1.3rem;
+    margin: 2rem;
   }
+}
 
 /* tempo */
-.fa-magnifying-glass{
+.fa-magnifying-glass {
   font-size: 1rem;
 }
-.temperatura, .graus{
+.temperatura,
+.graus {
   font-size: 2.5rem;
 }
-.tempo{
+.tempo {
   max-width: 30rem;
 }
-
 
 /* footer */
 .footer {
@@ -180,9 +184,8 @@ margin: 1rem;
   text-decoration: none;
   color: white;
 }
-@media only screen and (max-width: 400px) {
-.footer a{
-  font-size: 0.7rem;
+@media only screen and (max-width: 430px) {
+  .footer a {
+    font-size: 0.7rem;
+  }
 }
-}
-
